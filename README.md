@@ -110,35 +110,6 @@ Não foi utilizado banco de dados ou API, conforme solicitado na atividade.
 * Flutter
 * Dart
 
----
-
-### Como Executar o Projeto
-
-1. Clonar o repositório:
-
-```bash
-git clone https://github.com/SEU_USUARIO/P1Marcelo.git
-```
-
-2. Acessar a pasta do projeto:
-
-```bash
-cd P1Marcelo
-```
-
-3. Instalar dependências:
-
-```bash
-flutter pub get
-```
-
-4. Executar:
-
-```bash
-flutter run
-```
-
----
 
 ### Funcionalidades Implementadas
 
