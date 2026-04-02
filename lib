@@ -1,1 +1,17 @@
+lib/
+├── main.dart                    ← rotas e inicialização do app
+└── app/
+    ├── models/usuario_model.dart         ← classe com nome, email, senha
+    ├── data/usuario_mock_store.dart      ← Singleton com List<UsuarioModel>
+    ├── viewmodels/
+    │   ├── splash_viewmodel.dart         ← temporizador + navegação
+    │   ├── login_viewmodel.dart          ← autenticação e validações
+    │   └── signup_viewmodel.dart         ← cadastro e validações
+    └── views/
+        ├── splash_page.dart              ← tela inicial (3s)
+        ├── login_page.dart               ← formulário de login
+        ├── signup_page.dart              ← formulário de cadastro
+        └── home_page.dart                ← tela home pós-login
 
+
+admin@teste.com / 123456
